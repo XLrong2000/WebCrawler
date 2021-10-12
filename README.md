@@ -17,3 +17,7 @@
 7、curl测试项目属性 -> 连接器 -> 常规 –> 附加库目录, 添加lib
 8、将curl-7.38.0\include下的curl目录复制到curl项目的include目录下
 9、将curl-7.38.0中生成的libcurl.dll复制到curl项目中和生成的Debug中
+
+文件组成：
+主文件夹下存放程序源码和要输出的.txt文件，.txt文件是vs默认的编码格式，配置好curl之后在vs打开即可
+Debug中的.txt文件是CMD中的chcp 65001编码格式，需在cmd中打开
